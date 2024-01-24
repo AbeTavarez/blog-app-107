@@ -1,9 +1,11 @@
 import Article from "./Article";
 
 function ArticleList() {
+    // state = Array[Articles]
     return (
         <section>
-            <Article />
+            {/* // props Article Object  */}
+            <Article /> 
             <Article />
             <Article />
             <Article />
