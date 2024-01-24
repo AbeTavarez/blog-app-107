@@ -1,6 +1,7 @@
-function Nav() {
+function Nav({maxTemp, minTemp, sunny}) {
   return (
     <nav>
+      <h2>Weather: {maxTemp} | {minTemp} | {sunny && "Have a nice day!" }</h2>
       <ul>
         <li>
           <a href="">Women</a>
